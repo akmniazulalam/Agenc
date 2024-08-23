@@ -19,7 +19,7 @@ a{
 .nav-link {
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-style: 18px;
+    font-size: 18px;
     color: white;
     margin: 0 22px;
 }
@@ -33,7 +33,7 @@ a{
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-style: 20px;
+    font-size: 20px;
 }
 #bannerpart{
     background: url(../images/banner.png);
@@ -45,4 +45,24 @@ a{
     padding-top: 300px;
     padding-bottom: 170px;
     background: hsla(0, 0%, 0%, 62%);
+}
+.dropdown-menu {
+    padding: 10px 10px;
+    --bs-dropdown-min-width: 79px;
+    border: disabled;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 62%);
+}
+.btn{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+.btn:hover{
+    color: #4756DF;
 }
